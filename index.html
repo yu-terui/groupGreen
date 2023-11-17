@@ -44,6 +44,10 @@
                 fill: currentColor;
             }
 
+            .navbar {
+                background: #96CB8E;
+            }
+
             .nav-scroller {
                 position: relative;
                 z-index: 2;
@@ -62,20 +66,22 @@
                 -webkit-overflow-scrolling: touch;
             }
 
-            .btn-bd-primary {
-                --bd-violet-bg: #712cf9;
-                --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-                --bs-btn-font-weight: 600;
-                --bs-btn-color: var(--bs-white);
-                --bs-btn-bg: var(--bd-violet-bg);
-                --bs-btn-border-color: var(--bd-violet-bg);
-                --bs-btn-hover-color: var(--bs-white);
-                --bs-btn-hover-bg: #6528e0;
-                --bs-btn-hover-border-color: #6528e0;
-                --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-                --bs-btn-active-color: var(--bs-btn-hover-color);
-                --bs-btn-active-bg: #5a23c8;
-                --bs-btn-active-border-color: #5a23c8;
+            .btn-primary {
+                background: #895D4C;
+                border: transparent;
+            }
+
+            .btn-secondary {
+                background: #895D4C;
+                border: transparent;
+            }
+
+            .btn-outline-secondary {
+                background: #EDA184;
+                color: #fff;
+                border: #fff;
+                border-radius: 0;
+                margin-right: 5px;
             }
 
             .bd-mode-toggle {
@@ -84,6 +90,18 @@
 
             .bd-mode-toggle .dropdown-menu .active .bi {
                 display: block !important;
+            }
+
+            footer {
+                background: #96cb8e;
+            }
+
+            footer p {
+                color: #fff;
+            }
+
+            footer a {
+                color: #895D4C;
             }
         </style>
     </head>
@@ -159,7 +177,7 @@
                     </div>
                 </div>
             </div>
-            <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="navbar shadow-sm">
                 <div class="container">
                     <a href="#" class="navbar-brand d-flex align-items-center">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
